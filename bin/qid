@@ -1,0 +1,12 @@
+#!/usr/bin/env perl
+use v5.14;
+use lib 'lib';
+use App::qid;
+
+exit App::qid->run(\@ARGV);
+
+=head1 NAME
+
+qid - look up Wikidata items via command line
+
+=cut 
